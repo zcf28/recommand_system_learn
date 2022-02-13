@@ -5,6 +5,9 @@ import random
 
 
 class BaseUserCF(object):
+    """
+    功能描述： 基于 用户的协调过滤 电影推荐系统
+    """
     def __init__(self):
         self.ratio_file_path = f"../dataset/ml-1m/ratings.dat"
 
