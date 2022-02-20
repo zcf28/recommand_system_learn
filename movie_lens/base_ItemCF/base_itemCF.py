@@ -18,7 +18,8 @@ class BaseItemCF(object):
 
         self.item_sim = self.item_similarity()
 
-    # 加载评分数据到data
+        # 加载评分数据到data
+
     def read_data(self):
         print(f"加载数据...")
         data_list = []

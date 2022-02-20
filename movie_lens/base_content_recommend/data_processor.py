@@ -8,6 +8,7 @@ class DataProcessor(object):
     """
     功能描述 分别获取 电影类型特征向量  用户类型特征向量
     """
+
     def __init__(self):
         self.user_file_path = f"../dataset/ml-1m/users.dat"
         self.movie_file_path = f"../dataset/ml-1m/movies.dat"
