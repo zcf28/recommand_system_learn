@@ -70,7 +70,7 @@ class TrainDataset(Dataset):
 
             for index, row in df.iterrows():
                 feature = row.iloc[:-1]
-                label = 1 if row.iloc[-1] == "Yes" else 0
+                label = row.iloc[-1]
                 total_data.append(
                     {"feature": np.array(feature.values, dtype=np.float32), "label": np.array(label, dtype=np.int32)})
 
